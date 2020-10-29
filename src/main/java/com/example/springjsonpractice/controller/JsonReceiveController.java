@@ -39,6 +39,8 @@ public class JsonReceiveController {
         // return new ResponseEntity<>(postJsonTestDTO, HttpStatus.OK);
         // return "セッターなしで成功";
 
+
+
         return new ResponseEntity<>(new JsonTestDTO(), HttpStatus.OK);
     }
 }
